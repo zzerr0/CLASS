@@ -20,6 +20,8 @@ int main()
   
   Human *obj = new Human();
   cout<<obj->name<<endl;
+           //or
+  cout<<(*obj).name<<endl;
   cout<<obj->age<<endl;
   cout<<"Sizeof "<<sizeof(obj->age);
   delete obj;
