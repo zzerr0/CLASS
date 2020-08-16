@@ -20,6 +20,6 @@ class A
 int main()
 {
 	A* a = new A();
-	delete a; // Delete array
+	delete a; // Deleting the object we've created dynamically
 	return 0;
 }
